@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reports - Property Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <!-- Same as before with "Reports" as the active link -->
+
+    <!-- Main Content -->
+    <main>
+        <h1>Reports</h1>
+        <section class="report-generation">
+            <h2>Generate New Report</h2>
+            <form>
+                <label for="report-type">Report Type:</label>
+                <select id="report-type">
+                    <option value="financial">Financial Report</option>
+                    <option value="occupancy">Occupancy Report</option>
+                    <option value="maintenance">Maintenance Report</option>
+                </select>
+                <label for="date-range">Date Range:</label>
+                <input type="date" id="start-date"> to <input type="date" id="end-date">
+                <button type="submit">Generate Report</button>
+            </form>
+        </section>
+        <section class="recent-reports">
+            <h2>Recent Reports</h2>
+            <!-- List of reports -->
+            <ul>
+                <li>Financial Report - 01/01/2023 to 01/31/2023 <button>Download</button></li>
+                <!-- Add more reports as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Same as before -->
+</body>
+</html>
